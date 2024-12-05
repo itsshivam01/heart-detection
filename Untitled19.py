@@ -56,8 +56,8 @@ def user_input_features():
 input_df = user_input_features()
 
 # Load dataset (replace this with your actual dataset)
-from sklearn.datasets import load_heart_disease  # Replace with your actual dataset
-data = load_heart_disease()
+  # Replace with your actual dataset
+data = pd.read_csv("heart.csv")
 X, Y = data.data, data.target
 
 # Split the data
